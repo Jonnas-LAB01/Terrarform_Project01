@@ -9,8 +9,8 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration options
-  region = "us-east-1"
+# configuration options
+  region = var.aws_region
 }
 
 #Resource Definition
